@@ -73,7 +73,7 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 
-EXPOSE 8096
+EXPOSE 8080
 VOLUME /cache /config /media
 ENTRYPOINT ["./jellyfin/jellyfin", \
     "--datadir", "/config", \
